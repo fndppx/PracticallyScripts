@@ -20,7 +20,6 @@ def findBigResources(path,threshold):
             child = child + "/"
             findBigResources(child,threshold)
 
-
-targetpath = '扫描的文件路径'
+targetpath = '/Users/dxm/Library/Developer/Xcode/DerivedData/DemoProject-aiaukmoycnuiyaehpwiseekjqzye/Build/Products/Debug-iphoneos/DemoProject.app'
 threshold = 20
 findBigResources(targetpath, threshold)
