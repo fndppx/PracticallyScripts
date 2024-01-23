@@ -1,0 +1,4 @@
+使用说明：
+1.将下载的多语言文件放在sourceFiles目录下
+2.将原工程中的多语言文件夹放在targetFiles目录下
+3.运行walkDir(LangArray)参数为需要替换的语言缩写数组
